@@ -87,4 +87,4 @@ quantumleap-master/
 
 ## License
 
-Portfolio-Site is Copyright © 2017 Ahmad Nagib. It is free software, and may be redistributed under the terms specified in the [LICENSE](/LICENSE) file.
+QuantumLeap is Copyright © 2017 Ahmad Nagib. It is free software, and may be redistributed under the terms specified in the [LICENSE](/LICENSE) file.
