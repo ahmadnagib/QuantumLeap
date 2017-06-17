@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<p> Don't have an account? <a href="/blog/signup">register here</a></p>
+	<h2>Login</h2>
+	<form method="post">
+		<label>
+			<div>username</div>
+			<input type="text" name="username" value="{{username}}">
+			<div class="error">
+				{{uname_error}}
+			</div>
+		</label>
+		<label>
+			<div>password</div>
+			<input type="password" name="password" value="{{password}}">
+			<div class="error">
+				{{pass_error}}
+			</div>
+		</label>
+		<br>
+		<label>
+			<input type="submit" name="submit" value="Sign-in">
+		</label>
+	</form>
+{% endblock %}

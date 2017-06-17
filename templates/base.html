@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+	<title>Quantum Leap Blog</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+</head>
+<body>
+	<div class="left home_links">
+		<a href="/blog/welcome">User Homepage</a>
+	</div>
+	<div class="right home_links">
+		<a href="/blog">Latest Blog Posts</a>
+	</div>
+	<br>
+	<div>
+		<a href="/blog" class="blog-title">Quantum Leap Blog</a>
+	</div>
+	<div id="content">
+	{% block content %}
+	{% endblock %}
+	</div>
+</body>
+</html>
