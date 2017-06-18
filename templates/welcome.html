@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<p>Welcome {{username}}, you can</p>
+	<ul>
+		<li><a href="/blog">view latest blog posts</a></li>
+		<li><a href="/blog/newpost">create new posts</a></li>
+		<li><a href="/blog/myposts">view your existing posts</a></li>
+		<li><a href="/blog/logout">logout</a></li>
+	</ul>
+{% endblock %}
