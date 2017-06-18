@@ -56,7 +56,7 @@ Kindly report any malfunctions by sending an email to [me](mailto:ahmadnagib@fci
 6. Deploy your application to the default project on Google Cloud Platform using the command `gcloud app deploy`.
 7. Make sure that the [status of all of your project indexes](https://console.cloud.google.com/datastore/indexes) is "serving" so that the blog would perform properly.
 8. Use `gcloud app browse` command to open the base url in your default web browser. Alternatively, you can manually open the url on which your application has been deployed using any web browser.
-9. An implementation of the blog is available at [QuantumLeap](quantum-leap-blog.appspot.com/).
+9. An implementation of the blog is available at [QuantumLeap](http://quantum-leap-blog.appspot.com/).
 
 ## What is included
 
